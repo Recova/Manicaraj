@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  background: #050b07;
+  color: #b6ffcf;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #020805;
+  border-bottom: 1px solid #00ff88;
+}
+
+.logo {
+  color: #00ff88;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+.navbar a {
+  color: #7dffb3;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: radial-gradient(circle, #022015, #050b07);
+}
+
+.hero h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ff88;
+  font-size: 42px;
+  text-shadow: 0 0 20px #00ff88;
+}
+
+.panel {
+  margin: 40px;
+  padding: 30px;
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,255,136,0.2);
+}
+
+.card {
+  background: #03140d;
+  border: 1px solid #00ff88;
+  margin: 15px 0;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(0,255,136,0.2);
+}
